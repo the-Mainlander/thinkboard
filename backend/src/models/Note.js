@@ -1,8 +1,5 @@
 import mongoose from "mongoose"
 
-// 1 - create schema
-// 2 - model based off of schema
-
 const noteSchema = new mongoose.Schema({
     title: {
         type:String,
